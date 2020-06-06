@@ -1,4 +1,4 @@
-package any.mint;
+package any.mint.cyclicbarrier;
 
 import java.io.IOException;
 import java.util.Date;
@@ -31,10 +31,10 @@ public class CyclicBarrierAcross {
 
             @Override
             public void run() {
-                for (int i = 0; i < 20; i++) {
+                for (int i = 0; i < 10; i++) {
                     try {
                         int time = new Random().nextInt(1000);
-                        Thread.sleep(time);
+                        Thread.sleep(1);
                         System.out.println(new Date() +" "+ name + ", 翻越第" + i + "个障碍物, 使用了"+ time + "ms");
                         barrier.await();
                     } catch (InterruptedException e) {
