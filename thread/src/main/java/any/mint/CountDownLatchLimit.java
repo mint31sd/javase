@@ -1,10 +1,10 @@
-package any.mint.countdownlatch;
+package any.mint;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class Parallellimit {
+public class CountDownLatchLimit {
     public static void main(String[] args) {
         ExecutorService pool = Executors.newCachedThreadPool();
         CountDownLatch cdl = new CountDownLatch(100);

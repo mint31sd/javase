@@ -1,4 +1,4 @@
-package any.mint.countdownlatch;
+package any.mint;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;

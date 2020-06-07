@@ -1,4 +1,4 @@
-package any.mint.cyclicbarrier;
+package any.mint;
 
 import java.util.concurrent.CyclicBarrier;
 
