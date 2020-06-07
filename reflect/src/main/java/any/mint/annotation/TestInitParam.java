@@ -6,7 +6,6 @@ import java.lang.reflect.Field;
  * 测试调用
  * 具体测试调用的过程，参考代码中的注解，其中initUser方法来演示通过反射给属性赋值，
  * checkUser方法通过反射拿到当前属性的值进行对比校验。
- *
  */
 public class TestInitParam {
     public static void main(String[] args) throws IllegalAccessException {
