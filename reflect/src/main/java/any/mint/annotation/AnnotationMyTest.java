@@ -1,4 +1,4 @@
-package any.mint;
+package any.mint.annotation;
 
 public class AnnotationMyTest {
     //isAnnotationPresent：判断当前元素是否被指定注解修饰

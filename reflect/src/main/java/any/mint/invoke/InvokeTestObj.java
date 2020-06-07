@@ -1,4 +1,4 @@
-package any.mint;
+package any.mint.invoke;
 
 public class InvokeTestObj{
     public void hello() {

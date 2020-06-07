@@ -1,4 +1,4 @@
-package any.mint;
+package any.mint.annotation;
 
 import lombok.Builder;
 import lombok.Data;
