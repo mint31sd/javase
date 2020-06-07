@@ -1,6 +1,6 @@
 package any.mint;
 
-public class A{
+public class InvokeTestObj{
     public void hello() {
         System.out.println("hello world");
     }
