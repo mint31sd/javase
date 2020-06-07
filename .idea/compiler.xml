@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="javase" />
+        <module name="io" />
+        <module name="thread" />
+        <module name="reflect" />
       </profile>
     </annotationProcessing>
   </component>
